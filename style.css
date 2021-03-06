@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+  transition: background 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  
+}
+
+.phone{
+  background-image: url("icons_claire.paoletti");
+}
+
+nav {
+  width: 440px;
+}
+
+.wave-wrap {
+  position: relative;
+  width: 100%;
+  height: 33px;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.wave-wrap #wave {
+  position: absolute;
+  width: 150px;
+  transform-origin: bottom;
+  transform: scaleY(0.8);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.wave-wrap #wave .path {
+  fill: #2f3542;
+}
+
+.list-wrap {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background: #2f3542;
+  list-style: none;
+  justify-content: space-around;
+  padding: 0 20px;
+}
+.list-wrap li {
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.list-wrap li i {
+  position: relative;
+  font-size: 1.5em;
+  color: #a4b0be;
+  z-index: 5;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.list-wrap li:before {
+  content: "";
+  position: absolute;
+  background: green;
+  height: 80%;
+  width: 80%;
+  left: 10%;
+  top: 10%;
+  border-radius: 50%;
+  z-index: 0;
+  transform: scale(0);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.list-wrap li.active {
+  margin-top: -10px;
+}
+.list-wrap li.active i {
+  color: #2f3542;
+}
+.list-wrap li.active:before {
+  transform: scale(1);
+}
+.list-wrap li:nth-child(1):before {
+  background: #537895;
+}
+.list-wrap li:nth-child(2):before {
+  background: #B3394B;
+}
+.list-wrap li:nth-child(3):before {
+  background: #7bed9f;
+}
+.list-wrap li:nth-child(4):before {
+  background: #70a1ff;
+}
+.list-wrap li:nth-child(5):before {
+  background: #dfe4ea;
+}
+
+.phone {
+  width: 440px;
+  height: 667px;
+  border: 7px solid rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  font-family: "arial";
+}
+.phone .mainContent {
+  padding-left: 15px;
+  height: 554px;
+  width: 100%;
+  
+  justify-content: cente;
+  align-items: cente;
+  position: relative;
+  color: rgba(0, 0, 0, 0.1);
+ 
+  letter-spacing: pt;
+  padding-top: 15px;
+}
+
+.mainContent h3{
+  padding-top: 20px;
+}
+
+.centerContent{
+  padding-top: 10px;
+}
+
+.phone .centerContent h3{
+ 
+  width: 100%;
+  float: left;
+  padding-bottom: 20px;
+}
+
+.centerContent p{
+  font-size: 14px;
+}
+
+.adresse{
+  padding-bottom: 10px;
+}
+
+.contact{
+  padding-bottom: 10px;
+}
+
+.book{
+  padding-bottom: 10px;
+}
+.langues{
+  padding-bottom: 10px;
+}
+
+.phone header{
+  font-family: "arial";
+  
+  font-weight: bold;
+  color: #2f3542;
+}
+
+h1{
+  font-size: 22px;
+}
+h2{
+  font-size: 20px;
+}
+h3{
+  font-size: 18px;
+}
+h4{
+  font-size: 16px;
+}
+
+#profil1{
+  color: #394357;
+}
+
+#competenceTitre2{
+  
+  padding-top: 10px;
+}
+#competences1{
+color: #6e2c3c;
+}
+#interets1{
+  color: #585650;
+}
+
+#formations1{
+  color: #405c45;
+}
+
+#formations1 p{
+  padding-top: 10px;
+}
+
+#experiences1 p{
+  padding-top: 10px;
+}
+
+.conclusion{
+  font-weight: bold;
+}
+
+
+.none{
+  display: none;
+}
+.actif1{
+  display: block;
+}
+
+#experiences1{
+color: #473f5e;
+}
+
+
+
+.footer{
+  position : absolute;
+  bottom: 0;
+  color: #2f3542;
+}
+.phone .footer .bold{
+  
+  font-size: 30px;
+  font-weight: bold;
+  
+}
