@@ -93,13 +93,13 @@ nav {
   background: #537895;
 }
 .list-wrap li:nth-child(2):before {
-  background: #B3394B;
+  background: #F58677;
 }
 .list-wrap li:nth-child(3):before {
   background: #7bed9f;
 }
 .list-wrap li:nth-child(4):before {
-  background: #70a1ff;
+  background: #FFE393;
 }
 .list-wrap li:nth-child(5):before {
   background: #dfe4ea;
@@ -117,14 +117,14 @@ nav {
   font-family: "arial";
   max-width: 440px;
   box-shadow:
-  0 10.9px 8.4px -12px rgba(0, 0, 0, 0.023),
-  0 21.2px 29.7px -12px rgba(0, 0, 0, 0.042),
-  0 30.5px 63.1px -12px rgba(0, 0, 0, 0.059),
-  0 38.4px 105.8px -12px rgba(0, 0, 0, 0.072),
-  0 44.5px 153.9px -12px rgba(0, 0, 0, 0.081),
-  0 49px 202.8px -12px rgba(0, 0, 0, 0.087),
-  0 53px 249px -12px rgba(0, 0, 0, 0.09)
+  0 13.2px 38.8px -41px rgba(0, 0, 0, 0.108),
+  0 25.6px 60.4px -41px rgba(0, 0, 0, 0.194),
+  0 36.3px 66.6px -41px rgba(0, 0, 0, 0.266),
+  0 44.2px 67.7px -41px rgba(0, 0, 0, 0.325),
+  0 50px 68px -41px rgba(0, 0, 0, 0.38)
 ;
+
+
  background-color: #F7F2F6;
 }
 .phone .mainContent {
@@ -192,7 +192,7 @@ h4{
 }
 
 #profil1{
-  color: #394357;
+  color: #2c3e4dbb;
 }
 
 #competenceTitre2{
@@ -200,14 +200,14 @@ h4{
   padding-top: 10px;
 }
 #competences1{
-color: #6e2c3c;
+color: #6e3a31c9;
 }
 #interets1{
   color: #585650;
 }
 
 #formations1{
-  color: #405c45;
+  color: #22462dbe;
 }
 
 #formations1 p{
@@ -231,7 +231,7 @@ color: #6e2c3c;
 }
 
 #experiences1{
-color: #473f5e;
+color: #3f3823fd;
 }
 
 
@@ -243,7 +243,7 @@ color: #473f5e;
 }
 @media (min-height: 650px) {
   .footer .bold {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
   }
 }
