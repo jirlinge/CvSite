@@ -272,6 +272,14 @@ h3 {
     }
   }
 
+  @media (max-height: 570px) {
+    .list-wrap {
+       
+        height: 60px;
+    
+      }
+    }
+
 @media (max-height: 575px) {
   h2 {
       font-size: 18px;
