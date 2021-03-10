@@ -53,8 +53,11 @@ function align(dis){
   // move the wave
   var left = index * 80 - 98;
   
+  var Hscreen=screen.height;
+  if(Hscreen<"570"){
+    left= index * 40 - 35;
+  }
   $("#wave").css('left', left);
-  
   
   // ▼ this is not necessary for the navigation ▼
 
