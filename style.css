@@ -243,7 +243,7 @@ color: #3f3823fd;
 }
 @media (min-height: 650px) {
   .footer .bold {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
   }
 }
@@ -262,6 +262,21 @@ h3 {
 
   }
 }
+
+@media (max-height: 575px) {
+  h2 {
+      font-size: 18px;
+  
+    }
+  }
+
+  @media (max-height: 575px) {
+    h1 {
+        font-size: 20px;
+    
+      }
+    }
+
 @media (max-height: 570px) {
   .mainContent {
     height: 420px;
