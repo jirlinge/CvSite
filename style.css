@@ -157,6 +157,8 @@ nav {
   font-size: 14px;
 }
 
+
+
 .adresse{
   padding-bottom: 10px;
 }
@@ -304,6 +306,13 @@ h3 {
 @media (min-height: 570px) {
   .mainContent {
     height: 500px;
+
+  }
+}
+
+@media (max-height: 570px) {
+  .centerContent p {
+    font-size: 12px;
 
   }
 }
