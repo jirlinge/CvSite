@@ -51,12 +51,64 @@ function align(dis){
   });
   
   // move the wave
-  var left = index * 80 - 98;
-  
+  var left = index * 78 - 98;
+  var Wscreen=screen.width;
   var Hscreen=screen.height;
-  if(Hscreen<"570"){
-    left= index * 40 - 35;
+
+  if(Wscreen<=280){
+    left= index * 41.59 - 79.59;
+    $("li").height(41.59)
+    $(".list-wrap").height(45)
+    $(".bold").css("font-size",18)
+    $("h1").css("font-size",18)
+    $("h2").css("font-size",16)
   }
+  if(Wscreen>=320){
+    left= index * 48.8 - 84.8;
+    $("li").height(48.8)
+  }
+
+if(Wscreen>=360){
+  left= index * 56 - 88;
+  $("li").height(56)
+}
+if(Wscreen>=375){
+  left= index * 58.7 - 88.7;
+  $("li").height(58.7)
+}
+if(Wscreen>=390){
+  left= index * 61.41 - 88.7;
+  $("li").height(61.41)
+}
+if(Wscreen>=411){
+  left= index * 65.17 - 93.83;
+  $("li").height(65.17)
+}
+if(Wscreen>=428){
+  left= index * 68.23 - 93.83;
+  $("li").height(68.23)
+}
+
+if(Wscreen>=540){
+  left= index * 79.2 - 99.2;
+  $("li").height(79.2)
+}
+
+if(Wscreen>=768){
+  left= index * 79.2 - 99.2;
+  $("li").height(79.2)
+}
+if(Wscreen>=769){
+  left = index * 80 - 98;
+  
+}
+
+
+
+
+
+  
+ 
   $("#wave").css('left', left);
   
   // ▼ this is not necessary for the navigation ▼
