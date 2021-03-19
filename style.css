@@ -13,41 +13,41 @@ body {
   transition: background 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-.iconRS ul li a{
+.iconRS ul li{
   display: inline-block;
   font-size: 25px;
   margin-right: 10px;
  
 }
-.iconRS ul li a #insta:hover{
+.iconRS ul li #insta:hover{
   color: rgb(147, 31, 201);
   transition: 0.4s;
 }
-.iconRS ul li a #linkedin:hover{
+.iconRS ul li #linkedin:hover{
   color: #626ed6;
   transition: 0.4s;
 }
-.iconRS ul li a #dribbble:hover{
+.iconRS ul li #dribbble:hover{
   color: #ff4fb0;
   transition: 0.4s;
 }
-.iconRS ul li a #behance:hover{
+.iconRS ul li #behance:hover{
   color: #2042ff;
   transition: 0.4s;
 }
-.iconRS ul li a #git:hover{
+.iconRS ul li #git:hover{
   color: #2f3542;
   transition: 0.4s;
 }
 
 .iconRS ul li a{
   text-decoration: none;
-
+  
 }
 
 
 
-.iconRS ul li a:after {
+.iconRS ul li:after {
   content: "";
   display: block;
   height: 0.25em;
