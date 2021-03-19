@@ -1,31 +1,23 @@
 // set the first nav item as active
 var dis = $(".list-wrap li").eq(0);
-
 // align the wave
 align(dis);
-
 // align the wave on click
 $(".list-wrap li").click(function(){
-  dis = $(this);
-  
+  dis = $(this); 
   align(dis);
 });
-
 $('body').on('keydown',function(e){
     var code = e.keyCode || e.which;
-  
     if(code == 9) {
-      
       if(dis.is(':last-child')){
         $(".list-wrap li:nth-child(1)").trigger("click");
       }
       else{
         dis.next().trigger("click");
-      }
-      
+      }   
     } 
 });
-
 $("body").keydown(function(e) {
   if(e.keyCode == 37) { // left
     $("#showroom").animate({
